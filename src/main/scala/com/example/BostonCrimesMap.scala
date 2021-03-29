@@ -6,7 +6,7 @@ import org.apache.spark.sql.functions._
 object BostonCrimesMap {
   def main(args: Array[String]): Unit = {
     if (args.length != 3) {
-      println("<input_file_1> <input_file_2> <output_path>")
+      println("USAGE: <input Crimes csv> <input codes csv> <output_path>")
       scala.sys.exit(1)
     }
 
